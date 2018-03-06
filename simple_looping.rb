@@ -30,7 +30,7 @@ def until_iterator(number_of_times)
 end
 
 def for_iterator(number_of_times)
-
+counter = 0
   
 end
 
