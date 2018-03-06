@@ -2,9 +2,9 @@
 def loop_iterator(number_of_times)
   counter = 0
   loop do 
-    counter += 1
     puts "Welcome to Flatiron School's Web Development Course!"
-      break if number_of_times >= counter
+    counter += 1
+      break if number_of_times =< counter
     end
 end
 
